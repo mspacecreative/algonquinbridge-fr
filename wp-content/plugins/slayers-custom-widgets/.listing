@@ -1,0 +1,17 @@
+-rw-r--r--   1 2253511  15000        2789 Apr 29 09:39 admin_actions.php
+-rw-r--r--   1 2253511  15000        3137 Apr 29 09:39 admin_css.php
+-rw-r--r--   1 2253511  15000        9984 Apr 29 09:39 admin_template_edit.php
+-rw-r--r--   1 2253511  15000        3188 Apr 29 09:39 admin_template_main.php
+-rw-r--r--   1 2253511  15000        1613 Apr 29 09:39 donate.php
+drwxr-xr-x   2 2253511  15000           6 Apr 29 09:39 images
+-rw-r--r--   1 2253511  15000        1828 Apr 29 09:39 javascript.js
+-rw-r--r--   1 2253511  15000        4819 Apr 29 09:39 readme.txt
+-rw-r--r--   1 2253511  15000       23437 Apr 29 09:39 screenshot-1.gif
+-rw-r--r--   1 2253511  15000      107817 Apr 29 09:39 screenshot-2.gif
+-rw-r--r--   1 2253511  15000       45206 Apr 29 09:39 screenshot-3.gif
+-rw-r--r--   1 2253511  15000        2429 Apr 29 09:39 show_in_authors.php
+-rw-r--r--   1 2253511  15000        3887 Apr 29 09:39 show_in_categories.php
+-rw-r--r--   1 2253511  15000        2756 Apr 29 09:39 show_in_pages.php
+-rw-r--r--   1 2253511  15000        3862 Apr 29 09:39 show_in_posts.php
+-rw-r--r--   1 2253511  15000        3812 Apr 29 09:39 show_in_tags.php
+-rw-r--r--   1 2253511  15000        4562 Apr 29 09:39 slayer_Custom_Widgets.php

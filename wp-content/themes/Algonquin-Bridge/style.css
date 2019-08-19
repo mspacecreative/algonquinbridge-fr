@@ -1,0 +1,1214 @@
+/*
+Theme Name: Algonquin Bridge
+Theme URI:  http://www.algonquinbridge.com/wp-content/themes/Algonquin-Bridge/
+Description: Child theme for Divi theme
+Author: Matt Cyr
+Template: Divi
+*/
+
+/*----------------------
+  -------GENERAL--------
+  ----------------------*/
+  
+.et_pb_bg_layout_light .et_pb_widget li a:hover {
+	color: #c81500;
+}
+
+.et_pb_column_1_3 .et_pb_widget_area_left .et_pb_widget, .et_pb_column_1_4 .et_pb_widget_area_left .et_pb_widget, .et_left_sidebar #sidebar .et_pb_widget {
+	padding: 5px 0;
+}
+
+a.featured-post:hover, ul.red-bullets a:hover {
+	color: #666!important;
+}
+
+a.featured-post, ul.red-bullets a, span.body, strong a {
+	color: #c81500!important;
+}
+
+.mabey-brochure-lure {
+	font-weight: bold;
+	color: #c81500;
+	margin: 7px 0 5px 0;
+	line-height: 18px;
+}
+
+.mabey-brochure-lure h2 {
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 19px;
+	font-weight: 900;
+	margin-bottom: -15px;
+}
+
+@media (min-width: 981px) {
+.et_pb_row {
+    padding: 5% 0;
+}
+}
+
+.mabey-brochure-lure p {
+	padding-bottom: 0;
+}
+
+.mabey-brochure-lure .body:hover {
+	color: #c81500!important;
+}
+
+.brochure {
+	width: 300px;
+	margin-left: -10px;
+	margin-top: 10px;
+}
+
+.caution-tape {
+	padding-bottom: 5px;
+}
+
+
+#mobile-buttons {
+	display: none;
+}
+
+#prefab-bridges .et-pb-controllers, #ped-bridges .et-pb-controllers {
+	bottom: 0;
+}
+/*----------------------
+  --------HEADER--------
+  ----------------------*/
+  
+#main-header {
+	-webkit-transition: none;
+	transition: none;
+	background: #000;
+	padding: 25px 0;
+}
+
+.captioned-gallery h2 {
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: right;
+	line-height: inherit;
+}
+
+.page-id-289 .prefab-bridges h2, .page-id-447 .prefab-bridges h2 {
+	top: 15px;
+	right: 0;
+	position: absolute;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: right;
+	line-height: 1.5em;
+}
+
+.page-id-300 .prefab-bridges h2, .page-id-29 .prefab-bridges h2 {
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: right;
+	line-height: 1.5em;
+}
+
+.page-id-484 .prefab-bridges .et_pb_slide:nth-child(2) h2 {
+	color: #333!important;
+	text-shadow: none!important;
+}
+
+.top-strip img {
+	width: 100%;
+	display: block;
+}
+
+body {
+	font-family: font-family: "nimbus-sans", 'Raleway' Arial, sans-serif!important;
+}
+
+p {
+	font-family: font-family: "nimbus-sans", 'Raleway' Arial, sans-serif!important;
+}
+
+#top-menu li.current-menu-ancestor > a, #top-menu li.current-menu-item > a {
+	color: #fff!important;
+	font-weight: bold;
+}
+
+/*.container,.et_pb_row {
+	max-width: 1280px;
+	width: 90%;
+}*/
+
+#main-footer .container {
+	width: 90%;
+}
+
+span.mobile_menu_bar:before {
+	color: #c9c9c9!important;
+}
+
+.sb-widgets {
+	margin-bottom: 0!important;
+}
+
+.et_pb_column_1_4 .et_pb_widget, .et_pb_column .et_pb_widget:nth-child(n) {
+	margin-bottom: 30px!important;
+}
+
+/*----------------------
+  --------FONTS---------
+  ----------------------*/
+  
+h1 {
+	color: #000!important;
+	font-weight: bold;
+	font-family: font-family: "nimbus-sans", 'Raleway' Arial, sans-serif!important;
+	font-size: 30px;
+	line-height: 1.2em;
+}
+
+h2 {line-height: 32px}
+
+.tw-recent-posts .featured-post h4 a {
+	font-weight: bold;
+	color: #c81500;
+}
+
+p.para {
+	padding-top: 1.7em;
+	padding-bottom: 0!important;
+	color: #666666;
+}
+
+#slider .et_pb_slide_description {
+	text-align: left;
+	padding: 0;
+}
+
+.et_pb_slide_description {
+	padding: 50px 0 30% 0;
+	text-align: left;
+	animation: none!important;
+	-moz-animation: none!important;
+	-webkit-animation: none!important;
+	-o-animation: none!important;
+}
+
+.et_pb_slide_with_image .et_pb_slide_description {
+	float: left!important;
+}
+
+.et_pb_slide_image {
+	animation: none!important;
+	-moz-animation: none!important;
+	-webkit-animation: none!important;
+	-o-animation: none!important;
+	float: right!important;
+	text-align: right!important;
+	margin: 0!important;
+	top: 50px!important;
+	border: 3px solid #fff;
+	right: 0!important;
+	width: 300px!important;
+}
+
+.et_pb_slide_image img {
+	width: 100%;
+}
+
+.et_pb_row.et_pb_row_0.et_pb_row_1-4_1-2_1-4:after, .et_pb_row.et_pb_row_1.et_pb_row_1-4_1-2_1-4, .et_pb_row.et_pb_row_0, .et_pb_column.et_pb_column_1_4.et_pb_column_3:after {
+	display: table;
+	content: '';
+	clear: both;
+}
+
+#home-slider .et_pb_slide_description h2 {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.et_pb_slider .et_pb_container {
+	width: 100%!important;
+}
+
+.et_pb_slider.prefab-bridges .et_pb_container {
+	width: 100%!important;
+}
+
+.et_pb_widget_area_left {
+	padding: 0;
+}
+
+.et_pb_row {
+	width: 90%;
+}
+
+.et_pb_slide_content a {
+	color: #fff;
+}
+
+.et_pb_slide_content a:hover {
+	text-decoration: underline;
+}
+
+#contact_form .et_pb_contact_submit, .override a {
+	color: #fff!important;
+}
+
+.et_pb_column_1_2 h3 {
+	line-height: 30px!important;
+}
+
+/*----------------------
+  ---------BODY---------
+  ----------------------*/
+
+.et_pb_widget_area li {
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #d5d5d5;
+	font-weight: bold;
+}
+
+.et_pb_widget_area_left {
+	border-right: none;
+}
+
+.et_pb_slides:after, .et_pb_row:after {
+	clear: none;
+}
+
+.et_pb_section {
+	padding: 0;
+}
+
+.emergency {
+	background: url('images/caution-bg6.gif') no-repeat;
+	padding: 20px;
+	background-size: 100% 100%!important;
+	max-width: 250px;
+}
+
+.emergency img {
+	width: 100%;
+	height: auto;
+}
+
+.bridge-rentals {
+	background: url('images/brushed-metal.jpg');
+	margin-bottom: 50px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	box-shadow: 0px 3px 3px #444;
+	border: 1px solid #f0efef;
+	width: 235px;
+	background-size: 100%;
+}
+
+.equal-height {
+	min-height: 150px;
+	max-height: 150px;
+	min-width: 100%;
+	max-width: 100%;
+	object-fit: cover;
+	margin: 15px 0;
+}
+
+.bridge-rentals:hover {
+	opacity: .7;
+}
+
+h4.widgettitle-side {
+	font-size: 25px;
+	line-height: 30px;
+	text-shadow: 1px 1px 1px #fff;
+	font-weight: bold;
+	padding-bottom: 0;
+}
+
+#bridge-rental-lure .widgettitle-side {
+	color: #fff;
+	text-shadow: none;
+}
+
+#bridge-rental-lure img, .emergency img {
+	display: block;
+	margin: 10px auto;
+}
+
+.emergency img {
+	margin-bottom: 5px;
+}
+
+#bridge-rental-lure ul {
+	padding: 0 0 0 17px;
+}
+
+a.gallery-button {
+	font-weight: bold; 
+	color: #666666!important;
+}
+
+a.gallery-button:hover {
+	font-weight: bold; 
+	color: #c81500!important;
+}
+
+a.current_page_item {
+	font-weight: bold; 
+	color: #c81500!important;
+}
+
+#gallery-menu {
+	list-style: none;
+	margin-left: -16px;
+}
+
+#para-1 p {
+	
+}
+
+/*----------------------
+  -------SIDEBAR--------
+  ----------------------*/
+  
+.bridge-rental-callout {
+	margin-top: 10px;
+	border-bottom: 1px solid #d5d5d5;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+}
+  
+a img:hover {
+  	opacity: .7;
+  }
+  
+  #text-7 {
+  	margin-left: 0!important;
+  	border-top: 1px solid #d5d5d5;
+  	padding-top: 30px;
+  	margin-top: 30px!important;
+  }
+  
+  ul#menu-primary-menu li a:hover {
+  	color: #c81500!important;
+  }ul.myriad-font li {
+  	font-size: 16px!important;
+  	font-family: "myriad-pro-condensed";
+  }
+  
+  h4.widgettitle-side a {
+  	color: #fff;
+  }
+  
+  #bridge-rental-lure {
+  	max-width: 250px;
+  }
+  
+  #bridge-rental-lure div {
+  	padding: 20px;
+  }
+  
+  .myriad-text a {
+  	font-family: "myriad-pro-condensed";
+  	font-size: 17px;
+  }
+  
+  .myriad-text p {
+  	padding-bottom: 5px;
+  }
+
+/*----------------------
+  ----FEATURE SLIDER----
+  ----------------------*/
+
+
+/*----------------------
+  -----SMALL SLIDERS----
+  ----------------------*/
+
+/*----------------------
+  -------WIDGETS--------
+  ----------------------*/
+  
+h4.widgettitle {
+	font-weight: bold;
+	color: #000;
+	line-height: 23px;
+	font-size: 17px;
+}
+
+.textwidget {
+	font-size: 13px;
+	line-height: 22px;
+}
+
+.tw-recent-posts .featured-post {
+	margin: 2px 0!important;
+}
+
+.tw-recent-posts .featured-post h4 {
+	font-size: 13px!important;
+	line-height: 17px!important;
+}
+
+.tw-recent-posts .featured-post a:hover {
+	color: #666;
+}
+
+.tw-recent-posts .post-time {
+	text-align: left!important;
+	font-size: 1em!important;
+	margin: 0 0 20px 0!important;
+	border-bottom: 1px solid #d5d5d5;
+	padding: 0 0 20px 0!important;
+}
+
+/*---------------------------------------
+  --------Custom Prefab Bridges----------
+  ---------------------------------------*/
+
+#img-container-1 {
+	background: url('images/nat-weathering.jpg') no-repeat;
+	width: 233px;
+	height: 100px;
+	position: relative;
+	margin: 0 0 5px 0;
+	max-width: 100%;
+}
+#img-container-2 {
+	background: url('images/galvanized.jpg') no-repeat;
+	width: 233px;
+	height: 100px;
+	position: relative;
+	margin: 0 0 5px 0;
+	max-width: 100%;
+}
+#img-container-3 {
+	background: url('images/painted.jpg') no-repeat;
+	width: 233px;
+	height: 100px;
+	position: relative;
+	margin: 0 0 5px 0;
+	max-width: 100%;
+}
+
+.bro-shadow {
+	max-width: 250px;
+}
+#inner-container {
+	text-align: left;
+	vertical-align: bottom;
+	position: absolute;
+	bottom: 0;
+	width: 100%!important;
+}
+.caption {
+	color: #fff;
+	background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .75))!important;
+	padding: 5px 10px 2px 10px!important;
+	margin: 0;
+	font-weight: 700;
+}
+
+.bro-shadow {
+	margin-left: -5px;
+	width: 100%;
+}
+
+/*----------------------
+  --------BLOG----------
+  ----------------------*/
+
+.et_pb_post h2 {
+	font-size: 21px;
+	line-height: 27px;
+}
+
+/*----------------------
+  --------FORM----------
+  ----------------------*/
+
+.form-submit input, .et_pb_contact_submit, .et_pb_contact_reset {
+	padding: 10px!important;
+}
+
+.et_pb_contact_submit {
+	background-color: #c81500!important;
+}
+
+/*----------------------
+  Modular Panel Page Images
+  ----------------------*/
+
+.mod-panel-img {
+	width: 800px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.entry-content table {
+	border: none;
+}
+
+.mod-panel-tbl {
+	margin: 0 0 10px 0!important;
+}
+
+.mod-panel-tbl tr td p {
+	padding: 10px 0 10px 15px!important;
+}
+
+.mod-panel-tbl tr td {
+	border: none;
+	border-bottom: 1px solid #e9e9e9;
+	padding-bottom: 10px;
+}
+
+.entry-content tr td {
+	padding: 0;
+}
+
+/*----------------------
+  ----THANK YOU PAGE----
+  ----------------------*/
+
+#post-1014 h1.main_title {
+        display: none;
+}
+
+/*----------------------
+  ---------BLOG---------
+  ----------------------*/
+
+.et_pb_post h2 {
+    margin-top: 10px;
+}
+
+/*----------------------
+  -------FOOTER---------
+  ----------------------*/
+
+#main-footer {
+	background-color: #000!important;
+}
+
+#footer-bottom {
+	padding: 15px 0 10px 5px;
+	background-color: #000;
+}
+
+#footer-info, #footer-info a {
+	color: #fff;
+	font-weight: bold;
+	text-align: right;
+	float: right;
+}
+
+#footer-info a:hover {
+	color: #c81500;
+}
+
+.disclaimer {
+	color: #fff;
+	padding: 55px 0 0 20px;
+	float: left;
+}
+
+.et_pb_contact_submit, .et_pb_contact_submit a {
+	color: #fff!important;
+	border: none!important;
+}
+
+.et_pb_contact_form_container {
+	margin-top: 100px;
+}
+
+/*----------------------
+  ----CONTACT FORM------
+  ----------------------*/
+
+.cb_form_wrapper {
+	max-width: 100%!important;
+	margin-top: -5px!important;
+}
+
+.layout-control-group span {
+	font-size: 23px;
+	margin-left: -10px;
+}
+
+.layout-control-group {
+	padding-top: 20px;
+	margin-bottom: 0px;
+}
+
+label.label_control.layout-control-label {
+	margin-bottom: 5px;
+	width: 400px;
+	margin-top: -40px;
+}
+
+#form .btn_submit, .override {
+	color: #fff!important;
+	font-size: 18px!important;
+	text-align: center!important;
+	height: 45px!important;
+	background: #c81500!important;
+}
+
+.layout-control-group {
+	padding-top: 15px;
+}
+
+.input_control.layout-span6 {
+	width: 480px;
+}
+
+.widget-layout-body {
+	padding: 5px 15px 0 15px;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+.widget-layout {
+	border-top: none;
+}
+
+select#ux_select_default_13240.input_control.layout-span6 {
+	margin-bottom: 25px;
+}
+
+span.error {
+	margin-left: 0;
+	font-size: 14px;
+}
+
+#main-content .et_pb_column_1_2 .thinner-col {
+	width: 500px!important;
+}
+
+.address-copy p {
+	margin-bottom: -10px!important;
+}
+
+.widget-layout-title {
+	background-color: none;
+	background-image: none;
+	height: 0px;
+}
+
+#form-below {
+	display: none;
+}
+
+#form-right {
+	margin-top: 15px;
+}
+
+/*----------------------
+  -------ARTICLES-------
+  ----------------------*/
+
+.fort-lawrence {
+	margin-top: 23px;
+	margin-bottom: 15px;
+	padding-left: 20px;
+}
+
+/*----------------------
+  --------PRICING-------
+  ----------------------*/
+
+.pricing-table {
+	border: none!important;
+}
+
+.second-table {
+	padding-left: 5%;
+}
+
+.mobile-icon-bg {
+	width: 30px;
+	padding: 2px 0;
+	background: #c81500;;
+	display: inline-block;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	margin-right: 13px;
+}
+
+.width {
+	width: 30px;
+	padding: 4px 2px 0 2px;
+	background: #c81500;;
+	display: inline-block;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	margin-right: 13px;
+	margin-top: 5px;
+}
+
+/*----------------------
+  ------RESPONSIVE------
+  ----------------------*/
+  
+@media only screen and (min-width: 980px) {
+
+.neg-margin {
+	margin-left: -18px;
+}
+}
+  
+@media screen and (min-width: 980px)
+			  and (max-width: 1100px) {
+
+#logo {
+	width: 266px;
+	margin-top: 0;
+}
+
+#ctoc-block {
+	margin-left: 233px;
+}
+
+.input_control.layout-span6 {
+	max-width: 425px;
+}
+
+.captioning {
+	margin-left: 80px!important;
+	margin-top: 116px!important;
+}
+
+nav#top-menu-nav a {
+	font-size: 13px;
+}
+
+nav#top-menu-nav {
+padding-top: 0;
+margin-top: -7px;
+}
+
+.prefab-bridges .et_pb_slide {
+	position: relative;
+}
+
+.mabey-logo {
+	margin-top: 76px;
+}
+
+.intl-logo {
+	padding: 10px 20px 10px 217px;
+}
+
+.bridge-out {
+	width: 185px;
+	height: auto;
+}
+
+#footer-info, #footer-info a {
+	margin-right: 5px;
+}
+
+#cta {
+	margin-right: 7px;
+	font-size: 13px;
+}
+
+#et-top-navigation {
+	margin-right: 8px;
+}
+
+h2.captions {
+	margin-top: -96px!important;
+	margin-left: 150px!important;
+}
+}
+
+@media screen and (min-width: 768px)
+			  and (max-width: 980px) {
+			  
+h2.captions {
+	display: none!important;
+}
+
+#form-right {
+	display: none;
+}
+
+#form-below {
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.input_control.layout-span6 {
+	width: 650px;
+}
+
+embed, iframe, object, video {
+	width: 685px;
+}
+
+#cta {
+	padding: -23px 20px 0 0;
+	text-align: right;
+	margin-right: 25px;
+	padding-right: 20px;
+}
+
+#cta, #cta a {
+font-size: 10px;
+padding-top: 39px;
+}
+
+#et_mobile_nav_menu {
+	margin-top: -28px;
+}
+
+.et_pb_container {
+	height: 300px;
+}
+
+.bridge-rentals {
+	width: 148px;
+}
+
+#cta, #cta a {
+	font-size: 10px;
+	padding-top: 39px;
+}
+
+#et-top-navigation {
+	margin-top: -40px!important;
+	margin-right: 28px;
+}
+
+.et_pb_column {
+	padding-bottom: 0;
+}
+
+#footer-info, #footer-info a {
+	padding-top: 16px;
+}
+
+#ctoc-block {
+margin-left: 0;
+}
+}
+
+@media screen and (min-width: 480px)
+			  and (max-width: 767px) {
+			  
+#form-right {
+	display: none;
+}
+
+#form-below {
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.input_control.layout-span6 {
+	width: 365px;
+}
+
+#ctoc-block {
+margin-left: 0;
+}
+
+#cta {
+	text-align: center;
+        padding: 73px 0 0 0;
+        width: 443px;
+        font-size: 9px;
+        letter-spacing: -.03em;
+        margin-left: -20px;
+}
+
+#home-sider {
+	height: 220px;
+}
+
+.et_pb_container {
+	height: 200px;
+}
+
+.et_pb_column_1_4 {
+	width: 390px;
+}
+
+.caution-tape {
+	width: 390px;
+}
+
+body.admin-bar #main-header {
+	margin-top: 0;
+}
+
+.intl-logo {
+	padding: 0;
+}
+
+.disclaimer {
+	padding: 16px 0 0 14px;
+}
+
+#footer-info, #footer-info a {
+	float: left;
+	text-align: left;
+	padding-top: 15px;
+}
+
+#wpadminbar {
+	position: fixed;
+}
+
+.bridge-rentals {
+	width: 200px;
+}
+
+.cpb-block {
+	margin-top: 10px;
+}
+
+.et_pb_column_4_4 {
+	margin-top: 70px;
+}
+
+img.alignright {
+	margin-left: 0;
+	width: 170px;
+}
+
+.fort-lawrence {
+	padding-left: 10px;
+}
+
+.margin-top-alg {
+	margin-bottom: 85px!important;
+}
+
+.et_pb_column_4_4 {
+	margin-top: 30px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+#img-container-1, #img-container-2, #img-container-3 {
+	width: 100%;
+    background-size: cover;
+height: 130px;
+}
+}
+
+@media screen and (min-width: 280px)
+			  and (max-width: 480px) {
+			  
+.et_pb_column_1_2 {
+	width: 280px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#form-right {
+	display: none;
+}
+
+#form-below {
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.input_control.layout-span6 {
+	width: 245px;
+}
+
+#cta {
+	display: none;
+}
+
+#mobile-buttons {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+#et_mobile_nav_menu {
+	margin-top: -72px;
+}
+
+#et-top-navigation {
+	margin-top: -97px;
+	margin-right: 29px;
+}
+
+#wpadminbar {
+	position: fixed;
+}
+
+#home-sider {
+	height: 220px;
+}
+
+.et_pb_column_1_4 {
+	width: 280px;
+}
+
+.et_pb_container {
+	height: 200px;
+}
+
+.caution-tape {
+	width: 280px;
+}
+
+.intl-logo {
+	padding: 0;
+}
+
+.disclaimer {
+	padding: 16px 0 0 14px;
+}
+
+#footer-info, #footer-info a {
+	float: left;
+	text-align: left;
+	padding-top: 15px;
+}
+
+.mabey-logo {
+	margin-top: -15px;
+}
+
+.bridge-rentals {
+	width: 200px;
+}
+
+.mobile-button {
+	background: #c81500;
+	padding: 0 12px!important;
+	display: inline-block;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	margin-right: 13px;
+	line-height: 33px;
+	position: relative;
+	top: -5px;
+}
+
+p:last-of-type {
+	padding-bottom: 8px;
+}
+
+#mobile-buttons a, #mobile-buttons p, #mobile-buttons a:hover {
+	color: #fff!important;
+	font-weight: bold;
+}
+
+#gallerytitle {
+	margin-top: 30px;
+}
+
+h1 {
+	margin-top: 20px;
+}
+
+
+.et_pb_text {
+	margin-bottom: 40px;
+}
+
+.mabey-brochure-lure h2 {
+	margin-top: 40px;
+}
+
+.cpb-block {
+	margin-top: 20px;
+}
+
+label.label_control.layout-control-label {
+	width: 230px;
+	margin-top: 0;
+}
+
+.mod-panel-tbl tr td {
+	display: block!important;
+}
+
+.mod-panel-tbl tr td p {
+	padding-left: 0!important;
+	padding-top: 0!important;
+}
+
+.mod-panel-tbl tr td img {
+	padding-bottom: 0!important;
+}
+
+.mod-panel-tbl tr td {
+	border: none!important;
+}
+}
+
+html .et_pb_slider_container_inner {
+	padding: 0!important;
+	vertical-align: top!important;
+}
+
+@media (max-width: 980px) {
+
+#main-header {
+	padding: 15px 0;
+}
+}
+
+@media (max-width: 736px) {
+
+html .et_pb_slide_description {
+	padding: 25px 0 40% 0!important;
+}
+
+html h2.et_pb_slide_title {
+	font-size: 22px!important;
+}
+
+.et_pb_slide_content p {
+	display: none;
+}
+}
+
+.img_grey_borders {
+	display: block;
+	margin: 15px 0 0;
+}
+
+.cisc_logo {
+	padding: 15px 0;
+    border-bottom: 1px solid #d5d5d5;
+    border-top: 1px solid #d5d5d5;
+    margin-top: 15px;
+}
+
+.cisc_logo p {
+	font-size: 13px;
+    line-height: 1.65em;
+}
+
+.home .cisc_logo {
+	margin-top: 0;
+}

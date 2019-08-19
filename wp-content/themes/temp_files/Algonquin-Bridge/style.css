@@ -1,0 +1,1419 @@
+/*
+Theme Name: Algonquin Bridge
+Theme URI:  http://www.fr.algonquinbridge.com/wp-content/themes/Algonquin-Bridge/
+Description: Child theme for Divi theme
+Author: Matt Cyr
+Template: Divi
+*/
+
+@import url("../Divi/style.css");
+
+/*----------------------
+  -------GENERAL--------
+  ----------------------*/
+  
+.et_pb_bg_layout_light .et_pb_widget li a:hover {
+	color: #c81500;
+}
+
+.et_pb_column_1_3 .et_pb_widget_area_left .et_pb_widget, .et_pb_column_1_4 .et_pb_widget_area_left .et_pb_widget, .et_left_sidebar #sidebar .et_pb_widget {
+	padding: 5px 0;
+}
+
+a.featured-post:hover, ul.red-bullets a:hover {
+	color: #666!important;
+}
+
+a.featured-post, ul.red-bullets a, span.body, strong a {
+	color: #c81500!important;
+}
+
+.mabey-brochure-lure {
+	font-weight: bold;
+	color: #c81500;
+	margin-top: 7px;
+}
+
+.mabey-brochure-lure h2 {
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 19px;
+	font-weight: 900;
+	margin-bottom: -15px;
+}
+
+.mabey-brochure-lure p, .mabey-brochure-lure .body {
+	color: #000;
+	line-height: 20px!important;
+	margin-top: -5px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.mabey-brochure-lure .body:hover {
+	color: #c81500!important;
+}
+
+.brochure {
+	width: 300px;
+	margin-left: -10px;
+	margin-top: 10px;
+}
+
+.caution-tape {
+	padding-bottom: 5px;
+}
+
+
+#mobile-buttons {
+	display: none;
+}
+/*----------------------
+  --------HEADER--------
+  ----------------------*/
+  
+#main-header {
+	background: #000 url('images/header-bg-2.jpg') repeat-x;
+	-webkit-transition: none;
+	transition: none;
+	padding-top: 55px;
+	height: 110px;
+}
+
+.et_mobile_menu {
+	border-top: 3px solid #c81500!important;
+	top: 60px;
+}
+
+.mobile_menu_bar:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0.25em;
+	width: .9em;
+	height: 0.15em;
+	background: #fff;
+	box-shadow: 
+	    0 0.25em 0 0 #fff,
+	    0 0.5em 0 0 #fff;
+}
+
+body {
+	font-family: font-family: "nimbus-sans", 'Raleway' Arial, sans-serif!important;
+}
+
+p {
+	font-family: font-family: "nimbus-sans", 'Raleway' Arial, sans-serif!important;
+}
+
+#cta {
+	text-align: right;
+	margin-top: 10px;
+	padding: 0;
+	color: #ffc424;
+	font-weight: bold;
+	margin-right: -1px;
+}
+
+#cta a {
+	color: #ffc424;
+}
+
+#cta a:hover {
+	text-decoration: underline;
+}
+
+ul#top-menu a {
+	color: #c9c9c9;
+	font-weight: bold;
+	padding-top: 2px;
+	font-size: 13px;
+}
+
+ul#top-menu a:hover {
+	color: #c81500;
+}
+
+#top-menu li.current-menu-ancestor > a, #top-menu li.current-menu-item > a {
+	color: #fff!important;
+	font-weight: bold;
+}
+
+#logo {
+	-moz-transition: none; 
+	-webkit-transition: none; 
+	transition: none;
+	padding-top: 0;
+	width: 300px;
+	margin-top: 1px;
+}
+
+.et-fixed-header {
+	padding: 60px 0 0 0!important;
+	min-height: 80px!important;
+}
+
+.et_fixed_nav #main-header {
+	position: absolute;
+}
+
+#et_top_search {
+	display: none;
+}
+
+#strip {
+	width: 100%;
+}
+
+.et_fixed_nav #logo {
+	max-height: 70px;
+}
+
+.container.clearfix {
+	display: ;
+}
+
+.et-fixed-header {
+	padding-top: 9px!important;
+}
+
+#main-header, #main-header .nav li ul, .et-search-form, #main-header {
+	background-color: #000!important;
+}
+
+span.mobile_menu_bar:before {
+	color: #c9c9c9!important;
+}
+
+#et-top-navigation {
+	margin-top: -2px;
+}
+
+nav#top-menu-nav {
+	padding-top: 0;
+}
+
+li#menu-item-83 {
+	padding
+}
+
+.et_pb_column_1_3 .et_pb_widget_area_left .et_pb_widget, .et_pb_column_1_4 .et_pb_widget_area_left .et_pb_widget {
+	margin-right: 20px;
+}
+
+/*----------------------
+  --------FONTS---------
+  ----------------------*/
+  
+h1 {
+	color: #000!important;
+	font-weight: bold;
+	font-family: font-family: "nimbus-sans", 'Raleway' Arial, sans-serif!important;
+	font-size: 30px;
+	line-height: 1.2em;
+}
+
+.tw-recent-posts .featured-post h4 a {
+	font-weight: bold;
+	color: #c81500;
+}
+
+p.para {
+	padding-top: 1.7em;
+	padding-bottom: 0!important;
+	color: #666666;
+}
+
+.et_pb_post h2 a, .et_pb_portfolio_item h3 a {
+	color: #c81500;
+}
+
+.et_pb_post h2 a:hover, .et_pb_portfolio_item h3 a:hover {
+	color: #666;
+}
+
+.et_pb_widget a, .entry-content a {
+	color: #c81500;
+}
+
+.et_pb_slide_content a {
+	color: #fff;
+}
+
+.et_pb_slide_content a:hover {
+	text-decoration: underline;
+}
+
+#contact_form .et_pb_contact_submit, .override a {
+	color: #fff!important;
+}
+
+#menu-primary-menu.menu {
+	line-height: 20px!important;
+}
+
+#menu-primary-menu.menu li {
+	padding: 5px 0 10px 0;
+}
+
+h3.rpwe-title a {
+	font-size: 14px!important;
+	color: #c81500!important;
+	font-weight: 700;
+	margin-bottom: -5px!important;
+	
+}
+
+#rpwe_widget-2 h3.rpwe-title a:hover {
+	color: #666!important;
+}
+
+#rpwe_widget-2 .rpwe-block h3 {
+	margin-bottom: -5px!important;
+}
+
+#rpwe_widget-2 time.rpwe-time.published {
+	font-size: 14px;
+	font-weight: 500!important;
+}
+
+/*----------------------
+  ---------BODY---------
+  ----------------------*/
+  
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 90px; /* bottom = footer height */
+}
+
+.et_pb_row {
+	margin-top: 30px;
+}
+
+.et_left_sidebar #sidebar .et_pb_widget li {
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #d5d5d5;
+	font-weight: bold;
+}
+
+.et_pb_column_1_2 {
+	width: 575px;
+	margin-right: 30px;
+	margin-left: 5px;
+}
+
+ul#menu-primary-menu.menu a:hover {
+	color: #c81500;
+}
+
+.et_pb_widget_area li {
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #d5d5d5;
+	font-weight: bold;
+}
+
+.et_pb_row {
+	padding: 0;
+}
+
+.et_pb_widget_area_left {
+	border-right: none;
+}
+
+.et_pb_column_3_4 {
+	width: 785px;
+}
+
+.et_pb_column_1_4 {
+	width: 233px;
+	margin-right: 4px;
+	margin-top: -5px;
+	margin-bottom: 5px;
+}
+
+.et_pb_slides:after, .et_pb_row:after {
+	clear: none;
+}
+
+html {
+	margin-bottom: 80px;
+}
+
+.et_pb_section {
+	padding: 0;
+}
+
+.emergency {
+	background: url('images/caution-bg6.gif') no-repeat;
+	width: 235px;
+}
+
+.bridge-out {
+	width: 186px;
+	height: 199px;
+	margin: 0 auto;
+	padding: 0 0 30px 25px;
+	margin-top: -10px;
+}
+
+.bridge-rentals {
+	background: url('images/brushed-metal.jpg');
+	margin-bottom: 50px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	box-shadow: 0px 3px 3px #444;
+	border: 1px solid #f0efef;
+	width: 235px;
+	background-size: 100%;
+}
+
+.bridge-rentals:hover {
+	opacity: .7;
+}
+
+h4.widgettitle-side {
+	font-size: 25px;
+	padding: 20px 10px 25px 23px;
+	line-height: 30px;
+	text-shadow: 1px 1px 1px #fff;
+	font-weight: bold;
+}
+
+a.gallery-button {
+	font-weight: bold; 
+	color: #666666!important;
+}
+
+a.gallery-button:hover {
+	font-weight: bold; 
+	color: #c81500!important;
+}
+
+a.current_page_item {
+	font-weight: bold; 
+	color: #c81500!important;
+}
+
+#gallery-menu {
+	list-style: none;
+	margin-left: -16px;
+}
+
+/*#ctoc-block {
+	margin-left: 228px;
+}*/
+
+/*----------------------
+  -------SIDEBAR--------
+  ----------------------*/
+  
+.bridge-rental-callout {
+	margin-top: 10px;
+	border-bottom: 1px solid #d5d5d5;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+}
+  
+a img:hover {
+  	opacity: .7;
+  }
+  
+  #text-7 {
+  	margin-left: 0!important;
+  	border-top: 1px solid #d5d5d5;
+  	padding-top: 30px;
+  	margin-top: 30px!important;
+  }
+  
+  ul#menu-primary-menu li a:hover {
+  	color: #c81500!important;
+  }
+
+/*----------------------
+  ----FEATURE SLIDER----
+  ----------------------*/
+
+#prefab-bridges.et_pb_slider .et_pb_slide, .et_pb_section.prefab-bridges, #ped-bridges.et_pb_slider .et_pb_slide, .et_pb_section.prefab-bridges {
+	background-size: 100%;
+	background-position: 0 0;
+}
+
+#prefab-bridges, #ped-bridges {
+	height: 284px;
+}
+
+.et_pb_slider .et_pb_slide, .et_pb_section.home-slider {
+	background-position: center;
+}
+
+.et_pb_slide_description h2 {
+	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: -5px;
+}
+.et_pb_slide_description p {
+	font-size: 16px;
+	margin-bottom: -20px;
+}
+
+.et_pb_slide_description {
+	-webkit-animation: none;
+	float: left;
+	max-width: 730px;
+	padding: 0;
+	text-align: left;
+	margin-top: 30px;
+}
+
+.et_pb_container {
+	height: 400px;
+}
+
+et_pb_column_3_4 .et_pb_slider_fullwidth_off .et_pb_slide_description {
+padding: 18px 60px!important;
+}
+
+.et_pb_slide_image {
+	-webkit-animation: none;
+}
+
+#prefab-bridges .et-pb-controllers, #ped-bridges .et-pb-controllers  {
+	bottom: 0;
+}
+
+.et_pb_column_3_4 .et_pb_slide_description h2, .et_pb_column_2_3 .et_pb_slide_description h2, .et_pb_column_1_2 .et_pb_slide_description h2 {
+	font-weight: 700;
+	margin-bottom: -29px;
+	margin-top: 50px;
+	font-size: 19px;
+	text-align: left;
+	line-height: 24px;
+	margin-left: -25px;
+}
+
+a.et_pb_more_button {
+	background: none;
+	margin-top: -20px;
+}
+
+.woocommerce span.onsale, .woocommerce-page span.onsale, .et_pb_pricing_table_button, .et_pb_promo_button, a.et_pb_more_button, .et_pb_newsletter_button, .comment-reply-link, .form-submit input, .et_pb_contact_submit, .et_pb_contact_reset {
+	font-size: 15px;
+	padding: 0;
+	line-height: 18px;
+}
+
+a.et_pb_more_button {
+	background: rgba(200, 21, 0, .85);
+	margin-top: -20px;
+	padding: 15px 20px;
+	color: #fff;
+	font-weight: 700;
+}
+
+a.et_pb_more_button:hover {
+	text-decoration: underline;
+	color: #fff!important;
+}
+
+.prefab-bridges p {
+	font-size: 16px;
+	margin-bottom: 0;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-left: -25px;
+	text-align: left;
+}
+
+.emergeny-bridges p {
+	margin-top: 50px;
+}
+
+.red-arrows {
+	color: #c81500;
+	margin-right: 250px;
+}
+
+/*----------------------
+  -----SMALL SLIDERS----
+  ----------------------*/
+
+h2.captions {
+	margin-top: -130px!important;
+	margin-left: 211px!important;
+}
+
+#ped-bridges p {
+	font-weight: 700;
+}
+
+/*----------------------
+  -------WIDGETS--------
+  ----------------------*/
+  
+h4.widgettitle {
+	font-weight: bold;
+	color: #000;
+	line-height: 23px;
+	font-size: 17px;
+}
+
+.textwidget {
+	font-size: 13px;
+	line-height: 22px;
+}
+
+.tw-recent-posts .featured-post {
+	margin: 2px 0!important;
+}
+
+.tw-recent-posts .featured-post h4 {
+	font-size: 13px!important;
+	line-height: 17px!important;
+}
+
+.tw-recent-posts .featured-post a:hover {
+	color: #666;
+}
+
+.tw-recent-posts .post-time {
+	text-align: left!important;
+	font-size: 1em!important;
+	margin: 0 0 20px 0!important;
+	border-bottom: 1px solid #d5d5d5;
+	padding: 0 0 20px 0!important;
+}
+
+.mabey-logo {
+	margin-top: 95px;
+}
+
+/*----------------------
+  --------BLOG----------
+  ----------------------*/
+
+.et_pb_post h2 {
+	font-size: 21px;
+	line-height: 27px;
+}
+
+/*----------------------
+  --------FORM----------
+  ----------------------*/
+
+.form-submit input, .et_pb_contact_submit, .et_pb_contact_reset {
+	padding: 10px!important;
+}
+
+.et_pb_contact_submit {
+	background-color: #c81500!important;
+}
+
+.widget-layout-title > h4 {
+	font-size: 22px;
+	padding: 20px 11px 10px 15px
+}
+
+.layout-control-group span {
+	font-size: 14px!important;
+	margin-left: -3px!important;
+	vertical-align: 2px!important;
+}
+
+.widget-layout-body {
+	padding: 0px 15px 0 15px!important;
+}
+
+#ux_select_default_95183 {
+	margin-bottom: 20px!important;
+}
+
+.layout-span6 {
+	margin-bottom: -5px!important;
+}
+
+#rdl_id_5137, #rdl_id_6858, #rdl_id_449, #rdl_id_8181 {
+	padding-right: 20px;
+}
+
+#rdl_id_5137, #rdl_id_6858, #rdl_id_449 {
+	margin-right: 200px!important;
+}
+
+.layout-controls.layout_according_label_position.hovertip {
+	padding-bottom: 15px;
+}
+
+/*----------------------
+  -------FOOTER---------
+  ----------------------*/
+
+#main-footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 50px;
+ 	width: 100%;
+	background-color: #000!important;
+	margin-bottom: -17px;
+}
+
+#footer-bottom {
+	padding: 15px 0 10px 5px;
+	background-color: #000;
+}
+
+#footer-info, #footer-info a {
+	color: #fff;
+	font-weight: bold;
+	text-align: right;
+	float: right;
+	padding-top: 55px;
+}
+
+#footer-info a:hover {
+	color: #c81500;
+}
+
+.intl-logo {
+	float: left;
+	width: 100px;
+	padding: 10px 20px 10px 220px;
+}
+
+.disclaimer {
+	color: #fff;
+	padding: 55px 0 0 20px;
+	float: left;
+}
+
+.et_pb_contact_submit, .et_pb_contact_submit a {
+	color: #fff!important;
+	border: none!important;
+}
+
+.et_pb_contact_form_container {
+	margin-top: 100px;
+}
+
+/*----------------------
+  ----CONTACT FORM------
+  ----------------------*/
+
+.cb_form_wrapper {
+	max-width: 100%!important;
+	margin-top: -5px!important;
+}
+
+.layout-control-group span {
+	font-size: 23px;
+	margin-left: -10px;
+}
+
+.layout-control-group {
+	padding-top: 20px;
+	margin-bottom: 0px;
+}
+
+label.label_control.layout-control-label {
+	margin-bottom: 5px;
+	width: 400px;
+	margin-top: -40px;
+}
+
+#form .btn_submit, .override {
+	color: #fff!important;
+	font-size: 18px!important;
+	text-align: center!important;
+	height: 45px!important;
+	background: #c81500!important;
+	margin-top: -40px!important;
+}
+
+.layout-control-group {
+	padding-top: 15px;
+}
+
+.input_control.layout-span6 {
+	width: 480px;
+}
+
+.widget-layout-body {
+	padding: 5px 15px 0 15px;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+.widget-layout {
+	border-top: none;
+}
+
+select#ux_select_default_13240.input_control.layout-span6 {
+	margin-bottom: 25px;
+}
+
+span.error {
+	margin-left: 0;
+	font-size: 14px;
+}
+
+#main-content .et_pb_column_1_2 .thinner-col {
+	width: 500px!important;
+}
+
+.address-copy p {
+	margin-bottom: -10px!important;
+}
+
+.widget-layout-title {
+	background-color: none;
+	background-image: none;
+	height: 0px;
+}
+
+#form-below {
+	display: none;
+}
+
+#form-right {
+	margin-top: 15px;
+}
+
+/*----------------------
+  -------ARTICLES-------
+  ----------------------*/
+
+.fort-lawrence {
+	margin-top: 23px;
+	margin-bottom: 15px;
+	padding-left: 20px;
+}
+
+/*----------------------
+  ------RESPONSIVE------
+  ----------------------*/
+  
+@media screen and (min-width: 980px)
+			  and (max-width: 1100px) {
+
+#logo {
+	width: 275px;
+	margin-top: -2px;
+}
+
+.input_control.layout-span6 {
+	max-width: 425px;
+}
+
+.captioning {
+	margin-left: 80px!important;
+	margin-top: 116px!important;
+}
+
+nav#top-menu-nav a {
+	font-size: 11px;
+}
+
+nav#top-menu-nav {
+padding-top: 0;
+margin-top: -7px;
+}
+
+#main-header {
+	height: 96px;
+	padding-top: 52px;
+}
+
+.et_pb_slide_description {
+	width: 420px;
+}
+
+#prefab-bridges, #ped-bridges {
+	height: 265px;
+}
+
+.et_pb_slide_description h2 {
+	font-size: 21px;
+}
+
+.et_pb_slide_description p {
+	font-size: 13px;
+}
+
+.mabey-logo {
+	margin-top: 76px;
+}
+
+.et_pb_column_1_4 {
+	width: 230px;
+}
+
+.et_pb_column_1_2 {
+	width: 460px;
+	margin-right: 20px;
+}
+
+.intl-logo {
+	padding: 10px 20px 10px 217px;
+}
+
+.bridge-out {
+	width: 185px;
+	height: auto;
+}
+
+.emergency {
+	height: 245px;
+	background: url('images/caution-bg-235wide2.gif') no-repeat;
+	padding-bottom: 85px;
+}
+
+#footer-info, #footer-info a {
+	margin-right: 5px;
+}
+
+#cta {
+	margin-right: 7px;
+}
+
+#et-top-navigation {
+	margin-right: 8px;
+}
+
+h2.captions {
+	margin-top: -96px!important;
+	margin-left: 150px!important;
+}
+
+.divider {
+	display: none;
+}
+
+#rdl_id_5137, #rdl_id_6858, #rdl_id_449 {
+margin-right: 118px!important;
+}
+}
+
+@media screen and (min-width: 768px)
+			  and (max-width: 980px) {
+			  
+h2.captions {
+	display: none!important;
+}
+
+#form-right {
+	display: none;
+}
+
+#form-below {
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.input_control.layout-span6 {
+	width: 650px;
+}
+
+embed, iframe, object, video {
+	width: 685px;
+}
+
+#cta {
+	padding: -23px 20px 0 0;
+	text-align: center;
+	margin-right: 25px;
+}
+
+#et_mobile_nav_menu {
+	margin-top: -28px;
+}
+
+.et_pb_slide_description h2 {
+	font-size: 21px;
+	margin-right: 150px;
+	font-weight: bold!important;
+}
+
+.et_pb_slide_description p {
+	font-size: 13px;
+}
+
+#main-header {
+	height: 65px;
+}
+
+#logo {
+	margin-top: -3px;
+	width: 200px;
+}
+
+.et_pb_column_1_2 {
+	width: 325px;
+}
+
+.et_pb_column_1_4 {
+	width: 150px;
+	margin-right: 30px;
+}
+
+.emergency {
+	width: 150px;
+	background: url('images/caution-bg-225px-high.gif') no-repeat;
+}
+
+.et_pb_container {
+	height: 300px;
+}
+
+h4.widgettitle-side {
+	font-size: 20px;
+	line-height: 22px;
+	padding: 20px 10px 20px 15px
+}
+
+.bridge-out {
+	width: 120px;
+	height: 128px;
+	padding: 0 0 30px 15px;
+}
+
+.bridge-rentals {
+	width: 148px;
+}
+
+.intl-logo {
+	padding-left: 163px;
+}
+
+#cta, #cta a {
+	font-size: 10px;
+	padding-top: 14px;
+}
+
+#et-top-navigation {
+	margin-top: -40px!important;
+	margin-right: 28px;
+}
+
+.et_pb_column_1_3 .et_pb_widget_area_left .et_pb_widget, .et_pb_column_1_4 .et_pb_widget_area_left .et_pb_widget, .et_left_sidebar #sidebar .et_pb_widget {
+	padding: 2px 0;
+}
+
+.et_pb_column_3_4 .et_pb_slide_description h2, .et_pb_column_2_3 .et_pb_slide_description h2, .et_pb_column_1_2 .et_pb_slide_description h2 {
+	display: none;
+}
+
+/*.woocommerce span.onsale, .woocommerce-page span.onsale, .et_pb_pricing_table_button, .et_pb_promo_button, a.et_pb_more_button, .et_pb_newsletter_button, .comment-reply-link, .form-submit input, .et_pb_contact_submit, .et_pb_contact_reset {
+	display: none!important;
+}*/
+
+#prefab-bridges, #ped-bridges {
+	height: 188px;
+}
+
+.et_pb_column {
+	padding-bottom: 0;
+}
+
+#prefab-bridges .et-pb-controllers, #ped-bridges .et-pb-controllers {
+	bottom: 0;
+}
+
+.mabey-logo {
+	margin-top: -30px;
+}
+
+#footer-info, #footer-info a {
+	padding-top: 16px;
+}
+
+#ctoc-block {
+margin-left: 0;
+}
+
+#rdl_id_5137, #rdl_id_6858, #rdl_id_449, #rdl_id_8181 {
+	padding-right: 20px;
+}
+
+#rdl_id_5137, #rdl_id_449 {
+	margin-right: 0!important;
+}
+
+#rdl_id_5137, #rdl_id_6858, #rdl_id_449 {
+margin-right: 38px!important;
+}
+}
+
+@media screen and (min-width: 480px)
+			  and (max-width: 767px) {
+			  
+.et_pb_column_1_2 {
+	width: 390px;
+}
+
+#form-right {
+	display: none;
+}
+
+#form-below {
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.input_control.layout-span6 {
+	width: 365px;
+}
+
+#ctoc-block {
+margin-left: 0;
+}
+
+#logo {
+	width: 200px;
+	margin-top: 8px;
+}
+
+#cta {
+	text-align: center;
+	padding: 70px 0 0 0;
+	width: 403px;
+	font-size: 12px;
+}
+
+#et_mobile_nav_menu {
+	margin-top: -72px;
+}
+
+body.admin-bar #main-header {
+	margin-top: 46px;
+}
+
+#main-header {
+	padding-top: 36px;
+	padding-bottom: 11px;
+}
+
+#home-sider {
+	height: 220px;
+}
+
+.et_pb_container {
+	height: 200px;
+}
+
+.et_pb_column_1_4 {
+	width: 390px;
+}
+
+.caution-tape {
+	width: 390px;
+}
+
+#et-top-navigation {
+	margin-top: -80px;
+	margin-right: 28px;
+}
+
+body.admin-bar #main-header {
+	margin-top: 0;
+}
+
+.et_pb_slide_description {
+	max-width: 300px;
+	margin-top: 10px;
+}
+
+.et_pb_slide_description h2 {
+	font-size: 17px !important;
+	font-weight: bold!important;
+}
+
+.et_pb_slide_description p {
+	font-size: 13px;
+	line-height: 16px;
+	margin-top: 7px;
+}
+
+.mabey-logo {
+	margin-top: -15px;
+}
+
+#prefab-bridges, #ped-bridges {
+	margin-top: -76px;
+	height: 223px;
+	margin-bottom: 65px;
+}
+
+.et_pb_text {
+	margin-top: -40px;
+}
+
+.intl-logo {
+	padding: 0;
+}
+
+.disclaimer {
+	padding: 16px 0 0 14px;
+}
+
+#footer-info, #footer-info a {
+	float: left;
+	text-align: left;
+	padding-top: 15px;
+}
+
+#wpadminbar {
+	position: fixed;
+}
+
+.bridge-rentals {
+	width: 200px;
+}
+
+h4.widgettitle-side {
+	width: 200px;
+}
+
+.cpb-block {
+	margin-top: 10px;
+}
+
+.br-block {
+	margin-top: -200px;
+}
+
+.et_pb_slide_description.prefab-bridges.ped-bridges {
+	display: none;
+}
+
+#ped-bridges .et_pb_slide_description {
+	display: none;
+}
+
+.et_pb_column_4_4 {
+	margin-top: 70px;
+}
+
+img.alignright {
+	margin-left: 0;
+	width: 170px;
+}
+
+.fort-lawrence {
+	padding-left: 10px;
+}
+
+#rdl_id_5137, #rdl_id_6858, #rdl_id_449 {
+	margin-right: 58px!important;
+}
+}
+
+@media screen and (min-width: 280px)
+			  and (max-width: 480px) {
+			  
+.et_pb_column_1_2 {
+	width: 280px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#form-right {
+	display: none;
+}
+
+#form-below {
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.input_control.layout-span6 {
+	width: 245px;
+}
+
+#logo {
+	width: 200px;
+}
+
+#cta {
+	display: none;
+}
+
+#mobile-buttons {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+#et_mobile_nav_menu {
+	margin-top: -72px;
+}
+
+#et-top-navigation {
+	margin-top: -97px;
+	margin-right: 29px;
+}
+
+#wpadminbar {
+	position: fixed;
+}
+
+#main-header {
+	padding-top: 52px;
+	padding-bottom: 11px;
+}
+
+#home-sider {
+	height: 220px;
+}
+
+.et_pb_column_1_4 {
+	width: 280px;
+}
+
+.et_pb_container {
+	height: 200px;
+}
+
+.caution-tape {
+	width: 280px;
+}
+
+.intl-logo {
+	padding: 0;
+}
+
+.disclaimer {
+	padding: 16px 0 0 14px;
+}
+
+#footer-info, #footer-info a {
+	float: left;
+	text-align: left;
+	padding-top: 15px;
+}
+
+.mabey-logo {
+	margin-top: -15px;
+}
+
+#prefab-bridges, #ped-bridges {
+	margin-top: -70px;
+	height: 160px;
+}
+
+.et_pb_text {
+	margin-top: -70px;
+}
+
+#prefab-bridges .et-pb-controllers, #ped-bridges .et-pb-controllers {
+	bottom: 5px;
+}
+
+.bridge-rentals {
+	width: 200px;
+}
+
+.mobile-button {
+	background: #c81500;
+	padding: 8px 25px;
+	display: inline-block;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	margin-left: 7px;
+}
+
+p:last-of-type {
+	padding-bottom: 8px;
+}
+
+#mobile-buttons a, #mobile-buttons p, #mobile-buttons a:hover {
+	color: #fff!important;
+	font-weight: bold;
+}
+
+.et_pb_slide_description {
+	margin-top: 15px;
+}
+
+.et_pb_slide_description p {
+	display: none;
+}
+
+.et_pb_slide_description h2 {
+	font-size: 17px !important;
+	line-height: 22px;
+}
+
+#gallerytitle {
+	margin-top: 30px;
+}
+
+h1 {
+	margin-top: 20px;
+}
+
+.mabey-brochure-lure {
+	margin-top: -15px;
+}
+
+.et_pb_column {
+	padding-bottom: 25px;
+}
+
+.et_pb_text {
+	margin-bottom: 40px;
+}
+
+.mabey-brochure-lure h2 {
+	margin-top: 40px;
+}
+
+img {
+	width: 280px;
+}
+
+.et_pb_slide_description.prefab-bridges.ped-bridges {
+	display: none;
+}
+
+#ped-bridges .et_pb_slide_description {
+	display: none;
+}
+
+.et_pb_post {
+	margin-top: -37px;
+}
+
+.single .et_pb_post {
+	margin-top: -57px;
+}
+
+.cpb-block {
+	margin-top: 20px;
+}
+
+.br-block {
+	margin-top: -150px;
+}
+
+.et_pb_column_4_4 {
+	margin-top: 100px;
+}
+
+label.label_control.layout-control-label {
+	width: 230px;
+	margin-top: 0;
+}
+}
